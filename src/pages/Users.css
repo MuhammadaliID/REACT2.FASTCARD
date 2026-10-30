@@ -1,0 +1,63 @@
+.users-table {
+  min-width: 900px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e4f8ee;
+  color: var(--green);
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.role-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.badge-role {
+  gap: 5px;
+  padding-right: 5px;
+}
+
+.role-x {
+  border: none;
+  background: rgba(79, 107, 237, 0.16);
+  color: #3f5ce0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.role-x:hover {
+  background: var(--red);
+  color: #fff;
+}
+
+.role-select {
+  height: 34px;
+  min-width: 132px;
+  font-size: 12.5px;
+  padding: 0 8px;
+}
